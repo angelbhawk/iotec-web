@@ -1,0 +1,1 @@
+@livewire('device', ['did' => $did])

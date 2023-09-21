@@ -1,0 +1,114 @@
+/* Estilo para el formulario de inicio de sesión */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+    background-color: #fff;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: #22395D;
+    
+    display: flex;
+    /*justify-content: center;*/
+    align-items:center;
+}
+
+.logo{
+  width: 10vh;
+  height: 10vh;
+  margin: 0px;
+  padding: 0px;
+  background-color: #009CFF;
+}
+
+.user-card{
+  width: 20vh;
+  height: 10vh;
+  margin: 0px;
+  padding: 0px;
+  background-color: #22395D;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.right-card{
+  width: 10vh;
+  height: 10vh;
+  background-color: #22395D;
+  margin-left: auto;
+  margin-right: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.logout{
+    width: auto;
+    background-color: #009CFF;
+
+    color: #fff;
+    padding: 10px;
+    border: 1px;
+    border-color: #009CFF;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+main{
+  width: 100vw;
+  height: 90vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.contenedor{
+  margin-top: 20px;
+  width: 80%;
+  background-color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #22395D;
+  background-color: #f1f1f1;
+}
+
+thead{
+  background-color: #22395D;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #22395D;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.btnConsultar{
+  width: auto;
+    background-color: #009CFF;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
