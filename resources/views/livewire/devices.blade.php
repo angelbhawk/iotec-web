@@ -47,7 +47,7 @@
 								@endforeach
 			    			@else
 							
-							<div style="margin-left:auto;margin-right:auto;">No hay aplicaciones asociados</div><br><br>
+							<div style="margin-left:auto;margin-right:auto;">No hay dispositivos asociados</div><br><br>
 							
 			    			@endif
 					</div>
