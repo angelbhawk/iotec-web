@@ -27,7 +27,7 @@ class Devices extends Component
       ->join('applications AS app', 'adv.application_id', '=', 'app.id')
       ->join('user_applications AS uap', 'app.id', '=', 'uap.application_id')
       ->join('users AS usr', 'uap.user_id', '=', 'usr.id')
-      ->where('usr.id', '=', 1)
+      ->where('usr.id', '=', auth()->id())
       ->select('dev.*')
       ->distinct() // Utilizar distinct para evitar resultados repetidos
       ->get()
